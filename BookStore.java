@@ -7,7 +7,10 @@ public class BookStore {
         inventory = new ArrayList<>();
 
     }
+    public void addBook(Book book) {
+        inventory.add(book);
 
+    }
 
 
 
