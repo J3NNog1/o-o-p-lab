@@ -11,6 +11,10 @@ public class BookStore {
         inventory.add(book);
 
     }
+    public void removeBook(String isbn) {
+        inventory.removeIf(book -> book.getIsbn().equals(isbn));
+
+    }
 
 
 
