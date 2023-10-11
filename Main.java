@@ -3,5 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         Customer cus1 = new Customer();
+        BookStore book1 = new BookStore();
         }
+
 }
