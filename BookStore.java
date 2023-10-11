@@ -1,6 +1,7 @@
 
 
-class Book {
+
+public class BookStore {
     String nameOfBook;
     String authorFirstName;
     String authorLastName;
@@ -8,13 +9,10 @@ class Book {
     String ISBN;
     String publishDate;
     String price;
+    static class Book {
 
-}
-public class BookStore {
-    String [] customerArray;
-    String date;
-    boolean inStock;
-    Book [] Books;
+
+    }
     public static void main(String[] args) {
 
 
