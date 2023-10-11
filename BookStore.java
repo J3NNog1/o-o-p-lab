@@ -1,23 +1,20 @@
-import java.util.ArrayList;
 
-import java.util.List;
 
+class Book {
+    String nameOfBook;
+    String authorFirstName;
+    String authorLastName;
+    String genre;
+    String ISBN;
+    String publishDate;
+    String price;
+
+}
 public class BookStore {
-    public BookStore(){
-        inventory = new ArrayList<>();
-
-    }
-    public void addBook(Book book) {
-        inventory.add(book);
-
-    }
-    public void removeBook(String isbn) {
-        inventory.removeIf(book -> book.getIsbn().equals(isbn));
-
-    }
-
-
-
+    String [] customerArray;
+    String date;
+    boolean inStock;
+    Book [] Books;
     public static void main(String[] args) {
 
 
